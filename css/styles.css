@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background: red;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+body{
+	font: 14px/1.5 Arial, Helvetica, sans-serif;
+	color:#fff;
+	overflow:hidden;
+}
+
+/* demo1 */
+
+#demo1,#demo2{
+	text-align: center;
+	color: #8C91A0;
+	font-size: 48px;
+	float: left;
+}
+
+#demo1 span,#demo2 span{
+	font-weight: bold;
+	color: #fff;
+}
+
+#demo {
+			 
+	overflow:hidden;
+	width: 100%;
+
+}
+ 
+#indemo {
+	float: left;
+    white-space: nowrap;
+	/*width: 800%;*/
+}
